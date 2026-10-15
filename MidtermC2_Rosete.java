@@ -1,5 +1,5 @@
 
-import java.util.*;
+import javax.swing.JOptionPane;
 
 public class MidtermC1_Rosete {
     public static void main (String[] args) {
@@ -9,6 +9,11 @@ public class MidtermC1_Rosete {
             "The Ritual of Baking.",
             JOptionPane.QUESTION_MESSAGE
             );
+
+            if (bread == null) {
+            bread = "";
+            }
+            bread = bread.trim().toLowerCase();
 
             switch (bread) {
             case "yes":
@@ -22,7 +27,7 @@ public class MidtermC1_Rosete {
             case "no":
                 JOptionPane.showMessageDialog(
                     null,
-                    "Open the sourdough starter.",
+                    "Then go hungry.",
                     "The Ritual of Baking.",
                     JOptionPane.INFORMATION_MESSAGE
                 );
@@ -47,6 +52,11 @@ public class MidtermC1_Rosete {
             JOptionPane.QUESTION_MESSAGE
             );
 
+            if (soul == null) {
+            soul = "";
+            }
+            soul = soul.trim().toLowerCase();
+
             switch (soul) { 
                 case "yes":    
                     JOptionPane.showMessageDialog(
@@ -64,6 +74,8 @@ public class MidtermC1_Rosete {
                         "Instructions.",
                         JOptionPane.INFORMATION_MESSAGE
                     ); 
+                    System.exit(0);
+                    break;
                 case "i have none.":
                     JOptionPane.showMessageDialog(
                         null,
@@ -73,8 +85,7 @@ public class MidtermC1_Rosete {
                     );
                     System.exit(0);
                     break;
-
-                    case "there is no starter":
+                case "there is no starter":
                     JOptionPane.showMessageDialog(
                         null,
                         "Oh.",
@@ -101,6 +112,11 @@ public class MidtermC1_Rosete {
             JOptionPane.QUESTION_MESSAGE
             );
 
+            if (baked == null) {
+            baked = "";
+            }
+            baked = baked.trim().toLowerCase();
+
             switch (baked) {
                 case "no":
                     JOptionPane.showMessageDialog(
@@ -126,6 +142,8 @@ public class MidtermC1_Rosete {
                         "Cake...?",
                         JOptionPane.INFORMATION_MESSAGE
                     );
+                    System.exit(0);
+                    break;
                 default:
                     JOptionPane.showMessageDialog(
                         null,
