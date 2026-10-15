@@ -107,7 +107,7 @@ public class MidtermC1_Rosete {
         String baked =JOptionPane.showInputDialog(
             null,
             "Did you bake it well? Is it burnt?",
-            "The Consumption.",
+            "Bakening.",
             JOptionPane.QUESTION_MESSAGE
             );
 
@@ -120,7 +120,7 @@ public class MidtermC1_Rosete {
                 case "no":
                     JOptionPane.showMessageDialog(
                         null,
-                        "It's perfect.\nLeave it to cool.\nAdmire it with pride.\nYou earned it.",
+                        "It's perfect.\nLeave it to cool.\nAdmire it with pride.\nYou earned it. \n\nBREAD EATEN AND CONSUMED SUCCESSFULLY",
                         "Full.",
                         JOptionPane.INFORMATION_MESSAGE
                     );
@@ -129,7 +129,7 @@ public class MidtermC1_Rosete {
                 case "yes":
                     JOptionPane.showMessageDialog(
                         null,
-                        "BREAD EATEN AND CONSUMED SUCCESSFULLY",
+                        "Oh.\nNow go buy bread from the store.\nOr don't waste it.\nCut off the carcinogen.",
                         "Empty.",
                         JOptionPane.INFORMATION_MESSAGE
                     );
