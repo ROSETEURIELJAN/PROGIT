@@ -74,7 +74,6 @@ public class MidtermC1_Rosete {
                         "Instructions.",
                         JOptionPane.INFORMATION_MESSAGE
                     ); 
-                    System.exit(0);
                     break;
                 case "i have none.":
                     JOptionPane.showMessageDialog(
@@ -125,6 +124,7 @@ public class MidtermC1_Rosete {
                         "Full.",
                         JOptionPane.INFORMATION_MESSAGE
                     );
+                    System.exit(0);
                     break;
                 case "yes":
                     JOptionPane.showMessageDialog(
