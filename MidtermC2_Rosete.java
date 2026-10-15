@@ -28,7 +28,7 @@ public class MidtermC1_Rosete {
                 JOptionPane.showMessageDialog(
                     null,
                     "Then go hungry.",
-                    "The Ritual of Baking.",
+                    "Empty.",
                     JOptionPane.INFORMATION_MESSAGE
                 );
                 System.exit(0);
